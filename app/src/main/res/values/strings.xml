@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">APPREVISAO</string>
+    <string name="roll_button">Roll</string>
+    <string name="val1"></string>
+    <string name="val2"></string>
+    <string name="text">Digite os valores!</string>
+
+</resources>
