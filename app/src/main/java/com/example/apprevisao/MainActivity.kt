@@ -26,17 +26,15 @@ class MainActivity : AppCompatActivity() {
         val editText = findViewById<EditText>(R.id.val_num)
         val editText2 = findViewById<EditText>(R.id.val_numII)
 
-        if(Integer.parseInt(editText.text.toString()) == Integer.parseInt(editText2.text.toString()) {
-                Toast.makeText(this, "Os numeros são iguais", Toast.LENGTH_SHORT).show()
-            }else
-                if {Integer.parseInt(editText.text.toString()) > Integer.parseInt(editText2.text.toString()){
-            Toast.makeText(this, "O primeiro numero é maior", Toast.LENGTH_SHORT).show()
-        } else {
-            Toast.makeText(this, "Os numeros são iguais", Toast.LENGTH_SHORT).show()
-
-
-
-        }
+        if(Integer.parseInt(editText.text.toString()) == Integer.parseInt(editText2.text.toString())){
+            Toast.makeText(this, "Os valores são iguais", Toast.LENGTH_SHORT).show()
+        }else
+            if(Integer.parseInt(editText.text.toString()) > Integer.parseInt(editText2.text.toString())){
+                Toast.makeText(this, "O primeiro é MAIOR que o segundo", Toast.LENGTH_SHORT).show()
+            }else{
+                Toast.makeText(this, "O primeiro é MENOR que o segundo", Toast.LENGTH_SHORT).show()
             }
     }
+
+
 }
