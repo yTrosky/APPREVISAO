@@ -21,15 +21,17 @@
 
     <EditText
         android:id="@+id/val_num"
-        android:layout_width="match_parent"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text=""
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/val_numII"
-        android:layout_width="match_parent"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text=""
         android:inputType="number"/>
 
